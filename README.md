@@ -1,4 +1,4 @@
-Here, I am simulating the modified version of well studied, **Moran process (https://en.wikipedia.org/wiki/Moran_process).
+Here, I am simulating the modified version of well studied **Moran process (https://en.wikipedia.org/wiki/Moran_process).**
 
 # Model: #
 
