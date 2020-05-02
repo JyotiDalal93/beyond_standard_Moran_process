@@ -1,0 +1,16 @@
+# model_parameter     fix. prob.  
+               2         0.0581 
+             2.5         0.0824 
+               3        0.12098 
+             3.5        0.16738 
+               4         0.2085 
+             4.5        0.23902 
+               5         0.2646 
+             5.5        0.28262 
+               6        0.29396 
+ 
+
+#allele A (at t = 0) 1
+#population size: 50
+#selection coefficient: 0.5
+#averagings done 50000
