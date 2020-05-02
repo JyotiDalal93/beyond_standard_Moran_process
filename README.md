@@ -13,4 +13,4 @@ P_{U} = a power law function.
 
 ## Aim: to calculate the probability with which the allele A will take over the population, i.e., the fixation probability of A. ##
 
-*For more details about the model and to get an insight into the results with explanations, see results/Results.ipynb present in this repository. *
+*For more details about the model and to get an insight into the results with explanations, **see results/Results.ipynb present in this repository.***
