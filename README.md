@@ -1,6 +1,6 @@
 Here, I am simulating the modified version of well studied, **Moran process (https://en.wikipedia.org/wiki/Moran_process).
 
-# Model:#
+#Model:#
 
 Consider a haploid population of size N, which is composed of two alleles A and a present in 1 and N - 1 copies respectively. The fitnesses of A and a are 1 + s and 1 respectively, where s > 0. 
 
