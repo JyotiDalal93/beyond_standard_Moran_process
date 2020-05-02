@@ -11,6 +11,6 @@ P_{U} = a power law function.
 
  *In the Moran process, U can take only one value i.e., 2, while in this model, U is a random variable that can take any value ranging from 2 to N.*
 
-## Aim: to calculate the probability with which the allele A will take over the population, i.e., the fixation probability of A.##
+##Aim: to calculate the probability with which the allele A will take over the population, i.e., the fixation probability of A.##
 
 For more details about the model and to get an insight into the results with explanations, see results/Results.ipynb present in this repository. 
