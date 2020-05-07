@@ -9,7 +9,7 @@ using namespace std;
 
 float U_lb, U_ub, pow_exp;
  
-float power_law_distributed()                                // A function that gives random numbers generated from a power-law function
+float power_law_distributed()                   // A function that gives random numbers generated from a power-law function 
 {
 
 float term1, term2, term3, term4, y, model_para_mod, x;      // pow_exp: a parameter of the model
@@ -131,10 +131,10 @@ break;
 
 U = int(power_law_distributed());     // U = 2, 3, 4 .....(Pop_size) 
 
-// Following part: sampling/choosing 'U - 1' distinct individuals RANDOMLY from 'N - 1' other individuals (except for the individual chosen for the reproduction process) 
+/* Following part: sampling/choosing 'U - 1' distinct individuals RANDOMLY from 'N - 1' other individuals (except for the individual chosen for the reproduction process) 
 // the 'U - 1' distinct individuals chosen will not make it to the next generation, i.e., will DIE in this step
 
-//U = 2;
+//U = 2;*/
 ind_death[1] = ind_repro; 
 
 i = 2;
@@ -204,8 +204,8 @@ fix_A+=1;
 
 } // no_exp
 
-out<<setw(15)<<float(model_para)<<setw(15)<<(1.0*fix_A)/(1.0*no_exp)<<" \n ";
-cout<<setw(15)<<float(model_para)<<setw(15)<<(1.0*fix_A)/(1.0*no_exp)<<" \n ";
+out<<setw(15)<<model_para<<setw(15)<<(1.0*fix_A)/(1.0*no_exp)<<" \n ";
+cout<<setw(15)<<model_para<<setw(15)<<(1.0*fix_A)/(1.0*no_exp)<<" \n ";
 cout<<" no_fixation "<<no_fixation<<" \n ";
 }
 out<<"\n\n";
